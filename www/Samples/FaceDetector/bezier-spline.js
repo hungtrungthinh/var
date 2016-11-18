@@ -35,6 +35,7 @@ function init()
 	
 	updateSplines();
 }
+
 /*creates and adds an SVG circle to represent knots*/
 function createKnot(x,y)
 {
