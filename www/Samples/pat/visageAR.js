@@ -65,7 +65,7 @@ function VisageAR() {
 		v_frameCanvas.setAttribute('style', 'display: none; z-index: 1');
 		v_videoTexture = new THREE.Texture(v_frameCanvas);
 
-		Module.initializeLicenseManager("342-060-209-579-790-311-929-138-034-829-931.vlc");
+		Module.initializeLicenseManager("../../lib/342-060-209-579-790-311-929-138-034-829-931.vlc");
 		// init tracker
 		this.v_tracker_pom = new Module.VisageTracker("../../lib/Head Tracker.cfg");
 		//initialize licensing
