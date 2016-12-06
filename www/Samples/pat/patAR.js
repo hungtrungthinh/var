@@ -10,3 +10,10 @@ var Module =
 		onModuleInitialized();
 	}
 };
+
+function onModuleInitialized()
+{
+	v_ar.initialize(container, webcam);
+	
+	initialized = true;
+}
