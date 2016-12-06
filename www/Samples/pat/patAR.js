@@ -13,7 +13,7 @@ var Module =
 
 function onModuleInitialized()
 {
-	v_ar.initialize(container, webcam);
+	//v_ar.initialize(container, webcam);
 	
 	initialized = true;
 }
