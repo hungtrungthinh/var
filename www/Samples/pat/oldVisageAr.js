@@ -22,7 +22,7 @@ function VisageAR() {
 	var v_frameCanvas ;
 	var v_frameContext ;
 
-
+	var v_glasses;
 	var v_mask, v_candideMask;
 	
 	var v_z_offset;
