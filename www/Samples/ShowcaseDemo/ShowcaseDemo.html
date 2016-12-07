@@ -2099,7 +2099,7 @@ function onModuleInitialized()
 	pixels = new Uint8ClampedArray(Module.HEAPU8.buffer, ppixels, mWidth*mHeight*4);
 	
 	//set up tracker and licensing, valid license needs to be provided
-	Module.initializeLicenseManager("342-060-209-579-790-311-929-138-034-829-931.vlc");
+	Module.initializeLicenseManager("../../lib/342-060-209-579-790-311-929-138-034-829-931.vlc");
 	m_Tracker = new Module.VisageTracker("../../lib/Facial Features Tracker - High.cfg");
 	TfaceData = new Module.FaceData();
 	
